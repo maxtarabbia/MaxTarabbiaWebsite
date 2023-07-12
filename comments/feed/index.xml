@@ -10,9 +10,9 @@
 	>
 <channel>
 	<title>
-	Comments on: Hello world!	</title>
-	<atom:link href="/MaxTarabbiaWebsite/hello-world/feed/" rel="self" type="application/rss+xml" />
-	<link>/MaxTarabbiaWebsite/hello-world/</link>
+	Comments for Max Tarabbia Blog	</title>
+	<atom:link href="/MaxTarabbiaWebsite/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/MaxTarabbiaWebsite/</link>
 	<description></description>
 	<lastBuildDate>Wed, 12 Jul 2023 02:20:01 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -22,7 +22,7 @@
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
 		<title>
-		By: A WordPress Commenter		</title>
+		Comment on Hello world! by A WordPress Commenter		</title>
 		<link>/MaxTarabbiaWebsite/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
