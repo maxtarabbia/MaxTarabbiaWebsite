@@ -12,8 +12,8 @@
 
 <channel>
 	<title>Uncategorized &#8211; Max Tarabbia Blog</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../../../index.html</link>
+	<atom:link href="http://maxtarabbia.blog/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>http://maxtarabbia.blog/</link>
 	<description></description>
 	<lastBuildDate>Wed, 12 Jul 2023 02:20:01 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -24,28 +24,28 @@
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>./../../../hello-world/index.html</link>
-					<comments>./../../../hello-world/index.html#comments</comments>
+		<link>http://maxtarabbia.blog/hello-world/</link>
+					<comments>http://maxtarabbia.blog/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[max]]></dc:creator>
 		<pubDate>Wed, 12 Jul 2023 02:20:01 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">./../../../index.html?p=1</guid>
+		<guid isPermaLink="false">http://maxtarabbia.blog/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>./../../../hello-world/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>http://maxtarabbia.blog/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Hello World!</title>
-		<link>./../../../hello-world-2/index.html</link>
-					<comments>./../../../hello-world-2/index.html#respond</comments>
+		<link>http://maxtarabbia.blog/hello-world-2/</link>
+					<comments>http://maxtarabbia.blog/hello-world-2/#respond</comments>
 		
 		<dc:creator><![CDATA[max]]></dc:creator>
 		<pubDate>Mon, 12 Jun 2023 02:45:07 +0000</pubDate>
@@ -57,7 +57,7 @@
 <p>Welcome to WordPress! This is your first post. Edit or delete it to take the first step in your blogging journey.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>./../../../hello-world-2/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>http://maxtarabbia.blog/hello-world-2/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
