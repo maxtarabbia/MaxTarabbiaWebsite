@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: Hello World!	</title>
-	<atom:link href="/hello-world-2/feed/" rel="self" type="application/rss+xml" />
-	<link>/hello-world-2/</link>
+	<atom:link href="/MaxTarabbiaWebsite/hello-world-2/feed/" rel="self" type="application/rss+xml" />
+	<link>/MaxTarabbiaWebsite/hello-world-2/</link>
 	<description></description>
 	<lastBuildDate>Mon, 12 Jun 2023 02:45:07 +0000</lastBuildDate>
 	<sy:updatePeriod>
