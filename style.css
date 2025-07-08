@@ -1,7 +1,19 @@
+/*
+
+    color pallete
+    #001122 (001526)
+    #003e62 (024169)
+    #324ab7 (4948c1)
+    #9c33e2 (9733df)
+    #eb75db (ffb3b8)
+    #ffb6b8 (ffb3b8)
+    #ffe1e0 (ffdfdd)
+
+*/
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background-color: #f0f2f5;
-    color: #1c1e21;
+    background: linear-gradient(to bottom, #003e62, #324ab7, #9c33e2);
+    color: #001122;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,16 +23,17 @@ body {
 
 .container {
     text-align: center;
-    background: #ffffff;
+    background: linear-gradient(45deg, #ffb6b8, #ffe1e0);
     padding: 2rem 3rem;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    max-width: 90%;
+    outline: 6px solid #001122;
+    max-width: 100%;
+    box-shadow: 0px 0px 36px #c8a1ff ;
 }
 
 h1 {
     font-size: 2.5rem;
-    color: #333;
+    color: #001122;
 }
 
 /* This is key for high-res images */
@@ -32,7 +45,7 @@ img {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #324ab7;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -40,13 +53,14 @@ button {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 1.5rem;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #003e62;
+    outline : 3px solid #001122;
+    outline-offset: -3px;
 }
-/* Add these new styles to your existing style.css file */
 
 body {
     padding-top: 80px; /* Add padding to the top of the body to prevent content from hiding behind the fixed nav bar */
@@ -58,7 +72,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #00112288;
     padding: 1rem 0;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -67,29 +81,41 @@ nav {
 
 nav a {
     color: #007bff;
+    color: #ffb6b8;
     text-decoration: none;
     font-size: 1.2rem;
     margin: 0 1rem;
     padding: 0.5rem 1rem;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
+    outline : 0px solid #eb75db00;
+    outline-offset: 0px;
+    background-color: #00112244;
+    transition: background-color 0.3s ease;
+    transition: outline 0.3s ease;
+    transition: outline-offset 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #f0f2f5;
+    background-color: #00112288;
+    outline : 3px solid #ffb6b8;
+    outline-offset: 3px;
 }
+
 
 /* Style for the active page link */
 nav a.active {
-    color: #333;
+    color: #ffb6b8;
     font-weight: bold;
+    margin: 0 0.85rem;
+    outline : 5px solid #ffb6b8;
+    outline-offset: 0px;
     pointer-events: none; /* Prevents clicking on the link of the current page */
 }
 
 /* Additional styles for blog and portfolio */
 article, .portfolio-item {
-    background: #f9f9f9;
-    border: 1px solid #ddd;
+    background: linear-gradient(225deg, #ffb6b8, #ffe1e0);
+    border: 1px solid #003e62;
     border-radius: 8px;
     padding: 1.5rem;
     margin-top: 2rem;
