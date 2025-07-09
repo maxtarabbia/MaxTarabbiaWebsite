@@ -20,7 +20,7 @@ def main():
             if(component["type"]=="image"):
                 articles+=f"""
                 <a href="{component["fullres"]}">
-                    <img src="{component["thumbnail"]}" alt="{component["title"]}" title="{component["title"]}" id="image-preview">
+                    <img src="{component["thumbnail"]}" alt="{component["title"]}" title="{component["title"].replace("\"","&quot;")}" id="image-preview">
                 </a>
                 """
             elif(component["type"]=="text"):
