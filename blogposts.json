@@ -1,0 +1,37 @@
+{
+    "posts": [
+        {
+            "title": "Glassky",
+            "date": "July 7, 2025",
+            "body": [
+                {
+                    "type":"text",
+                    "content":"This project initially started out as just a study of lettering. I was inspired by the Neo Vectorheart style, especially that of @4nt1r34l .The name is a twist on Paper Skies, another source of inspiration, making music and lovely minimalistic visuals."
+                },
+                {
+                    "type":"image",
+                    "title":"@4nt1r34l's piece titled \"220204\"",
+                    "thumbnail":"https://pbs.twimg.com/media/FK0T0XRVEAE1rB0?format=jpg&name=900x900",
+                    "fullres":"https://pbs.twimg.com/media/FK0T0XRVEAE1rB0?format=jpg&name=4096x4096"
+                },
+                {
+                    "type":"image",
+                    "title":"@PaperSkies_Sc's art for \"freefalling\"",                    
+                    "thumbnail":"https://pbs.twimg.com/media/GG4RWLpXgAAnczA?format=jpg&name=900x900",
+                    "fullres":"https://pbs.twimg.com/media/GG4RWLpXgAAnczA?format=jpg&name=4096x4096"
+                },
+                {
+                    "type":"text",
+                    "content":"After sketching out the basic letter shapes on a physical piece of paper I translated it to blender. "
+                },
+                {
+                    "type":"image",
+                    "title":"Blog 7-8-25 Image 1",
+                    "thumbnail":"https://drive.google.com/thumbnail?id=1bxcsEqXO2i8MmKbMtdrxCLQUa5en1sjW&sz=w1080",
+                    "fullres":"https://drive.google.com/thumbnail?id=1bxcsEqXO2i8MmKbMtdrxCLQUa5en1sjW&sz=w3840"
+                }
+            ]
+            
+        }
+    ]
+}
