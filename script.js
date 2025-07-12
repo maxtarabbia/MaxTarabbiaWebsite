@@ -1,9 +1,9 @@
 
 // Find the button by its ID
-const redirectButton = document.getElementById('redirectButton');
+const artstationButton = document.getElementById('artstationButton');
 
 // Add an event listener that waits for a click
-redirectButton.addEventListener('click', function() {
+artstationButton.addEventListener('click', function() {
     console.log("Redirecting..."); // A message for you in the browser's console
-    window.location.href = "https://www.google.com"; // The destination URL
+    window.location.href = "https://www.artstation.com/teamwinftw/albums/2404062"; // The destination URL
 });
